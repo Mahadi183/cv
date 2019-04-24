@@ -1,0 +1,198 @@
+
+body{
+  margin:0;
+
+}
+/*.............Heading section.............*/
+
+.img1{
+  width:80px;
+  height:80px;
+  border-radius: 100%;
+}
+.first{
+  position:relative;
+  background-color: #5ca0d3;
+}
+.second{
+  position:absolute;
+  left:822px;
+  top:20px;
+}
+
+/*.............Section 1 .......................*/
+.third{
+  position:relative;
+  width:100%;
+  height:500px;
+    background-color: #048998;
+}
+#body1{
+  position:relative;
+
+
+}
+#head1{
+
+  font-size: 50px;
+  font-family:cursive;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+#btn1{
+font-size: 20px;
+color:white;
+
+}
+#para1{
+  padding:30px;
+  font-size: 25px;
+  font-family:cursive;
+  font-style: italic;
+
+  color: white;
+}
+#para2{
+  font-family:cursive;
+  font-style: italic;
+
+  color: white;
+}
+.fourth{
+  position: absolute;
+  left:42px;
+  top:153px;
+
+}
+.fifth{
+  position: absolute;
+  left:615px;
+  top:46px;
+}
+
+.img3{
+  position: absolute;
+  left:658px;
+  top:333px;
+
+}
+.img2,.img3,.img5{
+
+    border-radius: 100%;
+}
+
+.img5{
+  width: 350px;
+  height:300px;
+}
+
+.seven{
+  position:relative;
+  width:100%;
+  height:500px;
+    background-color: #ff8364;
+}
+
+#body2{
+  position:relative;
+
+
+}
+
+.eight{
+  position: absolute;
+  left:42px;
+  top:153px;
+
+
+}
+.nine{
+  position: absolute;
+  left:467px;
+  top:153px;
+
+
+
+}
+.ten{
+  position: absolute;
+  left:866px;
+  top:153px;
+
+
+
+}
+.foot{
+  background-color: #085f63;
+  width: 100%;
+  height:200px;
+  position:relative;
+}
+.foot1{
+  position: absolute;
+  left:10px;
+  top:5px;
+}
+.foot2{
+  position: absolute;
+  left:1009px;
+  top:5px;
+}
+
+
+@media (max-width:1222px) {
+  .img5{
+    width: 200px;
+    height:150px;
+  }
+
+}
+
+@media (max-width:1224px) {
+  .foot2{
+    position: absolute;
+    left:620px;
+    top:5px;
+  }
+}
+
+@media (max-width:1089px) {
+  .img3{
+    display: none;
+  }
+
+}
+
+
+
+@media (max-width:1076px) {
+  .img5{
+    width: 200px;
+    height:150px;
+  }
+  .second{
+    position:absolute;
+    left:670px;
+    top:20px;
+  }
+
+  .nine{
+    position: absolute;
+    left:374px;
+    top:153px;
+
+
+
+  }
+  .ten{
+    position: absolute;
+    left:689px;
+    top:153px;
+
+
+
+  }
+
+}
